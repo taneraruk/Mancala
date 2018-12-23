@@ -1,0 +1,74 @@
+<!doctype html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Bol Game</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="message">Waiting for players!!!</h1>
+
+      <a href="/" class="btn btn-primary">Restart</a>
+      <table class="table" style="margin-top: 100px; width: 100%">
+        <tr>
+          <td id="pit13" rowspan="2">0</td>
+          <td id="pit12">0</td>
+          <td id="pit11">0</td>
+          <td id="pit10">0</td>
+          <td id="pit9">0</td>
+          <td id="pit8">0</td>
+          <td id="pit7">0</td>
+          <td id="pit6" rowspan="2">0</td>
+        </tr>
+        <tr>
+          <td id="pit0">0</td>
+          <td id="pit1">0</td>
+          <td id="pit2">0</td>
+          <td id="pit3">0</td>
+          <td id="pit4">0</td>
+          <td id="pit5">0</td>
+        </tr>
+        <tr>
+          <td>&nbsp;</td>
+          <td>
+            <button id="btn0" onclick="select(0)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>
+            <button id="btn1" onclick="select(1)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>
+            <button id="btn2" onclick="select(2)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>
+            <button id="btn3" onclick="select(3)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>
+            <button id="btn4" onclick="select(4)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>
+            <button id="btn5" onclick="select(5)" type="button"
+                    class="btn btn-primary" disabled>Select
+            </button>
+          </td>
+          <td>&nbsp;</td>
+        </tr>
+      </table>
+    </div>
+
+    <script src="js/jquery.min.js" crossorigin="anonymous"></script>
+    <script src="js/game.js"></script>
+  </body>
+</html>
